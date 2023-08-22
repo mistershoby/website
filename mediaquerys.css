@@ -1,0 +1,398 @@
+@media only screen and (max-width: 420px) {
+  html {
+    font-size: 20%;
+  }
+
+  .main__navigation--firstcontainer {
+    height: 30rem;
+    flex-direction: column;
+  }
+
+  .main__navigation--firstcontainer navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 3rem;
+    font-size: 8rem;
+  }
+
+  .main__navigation--firstcontainer navbar ul li svg {
+    margin-right: 20px;
+    font-size: 8rem;
+  }
+
+  .main__navigation--firstcontainer navbar ul li:nth-child(:last-child) {
+    display: inline-block;
+    font-size: 5rem;
+  }
+
+  .log__in h4 {
+    font-size: 8rem;
+    font-weight: 300;
+  }
+
+  .main__navigation--secondcontainer {
+    height: 30rem;
+    flex-direction: column;
+  }
+
+  .logo img {
+    background-size: cover;
+    height: 14rem;
+    margin-bottom: 4rem;
+  }
+
+  .main__navigation--secondcontainer navbar {
+    flex: 1;
+    text-align: right;
+    text-align: center;
+    justify-content: center;
+    font-weight: 100;
+  }
+
+  navbar ul li a h2 {
+    font-size: 5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .main__navigation--thirdcontainer {
+    flex-direction: column;
+  }
+
+  .main__navigation--thirdcontainer--text {
+    margin-bottom: 4rem;
+  }
+
+  .main__navigation--thirdcontainer--text h1 {
+    font-size: 8rem;
+  }
+
+  .main__navigation--thirdcontainer--text p {
+    font-size: 4rem;
+  }
+
+  .main__navigation--thirdcontainer--img {
+    margin-bottom: 5rem;
+  }
+
+  .carousel {
+    margin-bottom: 10rem;
+    height: 100rem;
+    width: 100rem;
+  }
+
+  .carousel-cell {
+    width: 66%;
+    height: 100rem;
+    margin-right: 10px;
+    background: #8c8;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  .carousel-cell img {
+    height: 100rem;
+    width: 100rem;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+
+  .flickity-prev-next-button.previous {
+    display: none;
+  }
+
+  .flickity-prev-next-button.next {
+    display: none;
+  }
+
+  .first__section {
+    height: 40rem;
+  }
+
+  .first__section__banner {
+    height: 40rem;
+    width: 40rem;
+    /* flex-direction: column; */
+  }
+
+  .first__section__banner--games img {
+    height: 40rem;
+  }
+
+  .first__section__banner--xbox360 {
+    height: 40rem;
+  }
+
+  .first__section__banner--xbox360 img {
+    height: 40rem;
+  }
+
+  .first__section__banner--ps2 {
+    height: 40rem;
+  }
+
+  .first__section__banner--ps2 img {
+    height: 40rem;
+  }
+
+  .first__section__banner--ps3 {
+    height: 40rem;
+  }
+
+  .first__section__banner--ps3 img {
+    height: 40rem;
+  }
+
+  .first__section__banner--nds {
+    height: 15rem;
+  }
+
+  .first__section__banner--nds img {
+    height: 15rem;
+  }
+
+  .second__section {
+    height: 40rem;
+  }
+
+  .second__section__movies--banner {
+    height: 40rem;
+    width: 40rem;
+  }
+
+  .second__section__movies--banner img {
+    height: 40rem;
+  }
+
+  .second__section__dvd--banner {
+    height: 40rem;
+  }
+  .second__section__dvd--banner img {
+    height: 40rem;
+  }
+
+  .second__section__dvd__steelbook--banner {
+    height: 40rem;
+  }
+
+  .second__section__dvd__steelbook--banner img {
+    height: 40rem;
+  }
+
+  .second__section__bluray--banner {
+    height: 40rem;
+  }
+  .second__section__bluray--banner img {
+    height: 40rem;
+  }
+
+  .second__section__bluray__steelbook--banner {
+    height: 40rem;
+  }
+
+  .second__section__bluray__steelbook--banner img {
+    height: 40rem;
+  }
+
+  .third__section {
+    height: 40rem;
+  }
+
+  .third__section__music--banner {
+    height: 40rem;
+    width: 40rem;
+  }
+  .third__section__music--banner img {
+    height: 40rem;
+    width: 40rem;
+  }
+
+  .third__section__vinyl--banner {
+    height: 40rem;
+  }
+
+  .third__section__vinyl--banner img {
+    height: 40rem;
+  }
+
+  .third__section__cd--banner {
+    display: flex;
+    position: relative;
+    flex: 1;
+    height: 40rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #363636;
+    border-left: 2px #222222 solid;
+  }
+
+  .third__section__cd--banner img {
+    height: 40rem;
+  }
+
+  .third__section__cassette__tape--banner {
+    height: 40rem;
+  }
+  .third__section__cassette__tape--banner img {
+    height: 40rem;
+  }
+
+  .items__container {
+    margin-top: 10rem;
+  }
+  .items__container__left {
+    margin-bottom: 15rem;
+  }
+
+  .items__container__left--title h2 {
+    font-size: 7rem;
+    margin-bottom: 4rem;
+  }
+
+  .items__container__right--title h2 {
+    font-size: 7rem;
+    margin-bottom: 4rem;
+  }
+
+  .footer__main {
+    height: 40rem;
+    flex-direction: column;
+  }
+
+  .footer__main__left {
+    flex-direction: column;
+  }
+
+  .footer__main__left--fb svg {
+    height: 15rem;
+  }
+
+  .footer__main__left--x svg {
+    height: 15rem;
+  }
+
+  .footer__main__left--instagram svg {
+    height: 15rem;
+  }
+
+  .footer__main__left--whatsapp svg {
+    height: 15rem;
+  }
+
+  .footer__main__middle {
+    flex-direction: column;
+  }
+
+  .newsletterbtn {
+    padding: 24px 60px;
+  }
+
+  .newsletterbtn h2 {
+    font-size: 4rem;
+  }
+
+  .footer__main__right {
+    flex-direction: column;
+  }
+
+  .footer__main__right--phone--text h2 {
+    font-size: 4rem;
+  }
+
+  .footer__main__right--phone--number h2 {
+    font-size: 4rem;
+  }
+
+  .footer__main__right--inbox--text h2 {
+    font-size: 4rem;
+  }
+
+  .footer__main__right--inbox--email h2 {
+    font-size: 4rem;
+  }
+
+  .footer__second {
+    flex-direction: column;
+    justify-content: initial;
+    height: 30rem;
+  }
+  .footer__second__left h2 {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .footer__second__right {
+    margin-top: 5rem;
+  }
+
+  .footer__second__right svg {
+    height: 10rem;
+  }
+
+  .carousel__left--slideshow {
+    width: 100rem;
+  }
+
+  .carousel__left--slideshow img {
+    height: 80rem;
+    width: 60rem;
+  }
+
+  .carousel__left--slideshow h2 {
+    text-align: center;
+  }
+
+  .carousel-cell {
+    background: #000;
+  }
+
+  .carousel__left--slideshow--cell1 h2 {
+    font-size: 10rem;
+  }
+
+  .carousel__left--slideshow--cell2 h2 {
+    font-size: 10rem;
+  }
+
+  .carousel__left--slideshow--cell3 h2 {
+    font-size: 10rem;
+  }
+
+  .carousel__left--slideshow--cell4 h2 {
+    font-size: 10rem;
+  }
+
+  .carousel__left--slideshow--cell5 h2 {
+    font-size: 10rem;
+  }
+
+  .items__container__right--slideshow h2 {
+    text-align: center;
+  }
+
+  .items__container__right--slideshow img {
+    height: 70rem;
+    width: 50rem;
+  }
+
+  .carousel__right--slideshow--cell1 h2 {
+    font-size: 10rem;
+  }
+
+  .carousel__right--slideshow--cell2 h2 {
+    font-size: 10rem;
+  }
+
+  .carousel__right--slideshow--cell3 h2 {
+    font-size: 10rem;
+  }
+
+  .carousel__right--slideshow--cell4 h2 {
+    font-size: 10rem;
+  }
+
+  .carousel__right--slideshow--cell5 h2 {
+    font-size: 10rem;
+  }
+}

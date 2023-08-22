@@ -1,0 +1,191 @@
+.footer__main {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 10rem;
+  background: #363636;
+  flex: 1;
+}
+
+.footer__main__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 3rem;
+  border-right: 2px #000000 solid;
+}
+
+.footer__main__left--fb svg {
+  height: 4rem;
+  fill: rgb(255, 255, 255);
+}
+
+.footer__main__left--fb svg:hover {
+  height: 5rem;
+}
+
+.footer__main__left--x svg {
+  height: 4rem;
+  fill: rgb(255, 255, 255);
+}
+
+.footer__main__left--x svg:hover {
+  height: 5rem;
+}
+
+.footer__main__left--instagram svg {
+  height: 4rem;
+  fill: rgb(255, 255, 255);
+}
+
+.footer__main__left--instagram svg:hover {
+  height: 5rem;
+}
+
+.footer__main__left--whatsapp svg {
+  height: 4rem;
+  fill: rgb(255, 255, 255);
+}
+
+.footer__main__left--whatsapp svg:hover {
+  height: 5rem;
+}
+
+.footer__main__middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background: #363636;
+  border-right: 2px #000000 solid;
+}
+
+.footer__main__middle--email {
+  padding: 16px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.newsletterbtn {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.newsletterbtn:hover {
+  opacity: 1;
+}
+
+.newsletterbtn h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.footer__main__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background: #363636;
+}
+
+.footer__main__right--phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+}
+
+.footer__main__right--phone--text h2 {
+  font-size: 2rem;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+
+.footer__main__right--phone--number h2 {
+  font-size: 1.8rem;
+  color: #c4c4c4;
+  text-transform: uppercase;
+}
+
+.footer__main__right--inbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+}
+
+.footer__main__right--inbox--text h2 {
+  font-size: 2rem;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+
+.footer__main__right--inbox--email h2 {
+  font-size: 1.8rem;
+  color: #c4c4c4;
+  text-transform: uppercase;
+}
+
+.footer__second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5rem;
+  height: 5rem;
+  background: #000000;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer__second__left h2 {
+  color: #f1f1f1;
+  font-size: 1.6rem;
+}
+
+.footer__second__right {
+  display: flex;
+  gap: 3rem;
+  padding-right: 5rem;
+}
+
+.footer__second__right--mastercard svg {
+  fill: #f1f1f1;
+  height: 3rem;
+}
+
+.footer__second__right--visa svg {
+  fill: #f1f1f1;
+  height: 3rem;
+}
+
+.footer__second__right--paypal svg {
+  fill: #f1f1f1;
+  height: 3rem;
+}
+
+.footer__second__right--stripe svg {
+  fill: #f1f1f1;
+  height: 3rem;
+}

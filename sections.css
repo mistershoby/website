@@ -1,0 +1,314 @@
+.first__section {
+  flex: 1;
+  position: relative;
+  display: flex;
+  height: 20rem;
+  background-color: #292929;
+  /* width: 100%; */
+  flex-wrap: wrap;
+}
+
+.first__section__banner {
+  background-color: #222222;
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+}
+
+.first__section__banner:hover {
+  background-color: rgb(48, 48, 48);
+}
+
+.first__section__banner--games {
+}
+
+.first__section__banner--games img {
+  height: 15rem;
+}
+
+.first__section__banner:hover img {
+  transform: scale(1.1);
+}
+
+.first__section__banner--xbox360 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #363636;
+  flex: 1;
+  height: 15rem;
+  border-left: 2px #222222 solid;
+}
+
+.first__section__banner--xbox360 img {
+  height: 10rem;
+}
+
+.first__section__banner--xbox360:hover {
+  background-color: #0f490d;
+  top: -2rem;
+}
+
+.first__section__banner--ps2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #363636;
+  flex: 1;
+  height: 15rem;
+  border-left: 2px #222222 solid;
+}
+
+.first__section__banner--ps2 img {
+  height: 10rem;
+}
+
+.first__section__banner--ps2:hover {
+  background-color: #ceefff;
+  top: -2rem;
+}
+
+.first__section__banner--ps3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #363636;
+  flex: 1;
+  height: 15rem;
+  border-left: 2px #222222 solid;
+}
+
+.first__section__banner--ps3 img {
+  height: 10rem;
+}
+
+.first__section__banner--ps3:hover {
+  background-color: #0b6796;
+  top: -2rem;
+}
+
+.first__section__banner--nds {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #363636;
+  flex: 1;
+  height: 15rem;
+  border-left: 2px #222222 solid;
+}
+
+.first__section__banner--nds img {
+  height: 4rem;
+}
+
+.first__section__banner--nds:hover {
+  background-color: #a3302c;
+  top: -2rem;
+}
+
+.second__section {
+  position: relative;
+  display: inline-flex;
+  height: 15rem;
+  flex: 1;
+  flex-wrap: wrap;
+  background-color: #292929;
+}
+
+.second__section__movies--banner {
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  width: 15rem;
+  background: #222222;
+  align-items: center;
+  justify-content: center;
+}
+
+.second__section__movies--banner:hover {
+  background-color: rgb(48, 48, 48);
+}
+
+.second__section__movies--banner img {
+  height: 15rem;
+}
+
+.second__section__movies--banner img:hover {
+  transform: scale(1.1);
+}
+
+.second__section__dvd--banner {
+  display: flex;
+  position: relative;
+  flex: 1;
+  height: 15rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #363636;
+  border-left: 2px #222222 solid;
+}
+
+.second__section__dvd--banner:hover {
+  background-color: #4a5f69;
+  top: -2rem;
+}
+
+.second__section__dvd--banner img {
+  height: 10rem;
+}
+
+.second__section__dvd__steelbook--banner {
+  display: flex;
+  position: relative;
+  flex: 1;
+  height: 15rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #363636;
+  border-left: 2px #222222 solid;
+}
+
+.second__section__dvd__steelbook--banner:hover {
+  top: -2rem;
+  background: linear-gradient(#ffd139, #363636, #ffd139);
+}
+
+.second__section__dvd__steelbook--banner img {
+  height: 10rem;
+}
+
+.second__section__bluray--banner {
+  display: flex;
+  position: relative;
+  flex: 1;
+  height: 15rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #363636;
+  border-left: 2px #222222 solid;
+}
+
+.second__section__bluray--banner:hover {
+  top: -2rem;
+  background-color: #cccfff;
+}
+
+.second__section__bluray--banner img {
+  height: 10rem;
+}
+
+.second__section__bluray__steelbook--banner {
+  display: flex;
+  position: relative;
+  flex: 1;
+  height: 15rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #363636;
+  border-left: 2px #222222 solid;
+}
+
+.second__section__bluray__steelbook--banner:hover {
+  top: -2rem;
+  background: linear-gradient(#ffd139, #cccfff, #836b1d);
+}
+
+.second__section__bluray__steelbook--banner img {
+  height: 10rem;
+}
+
+.third__section {
+  position: relative;
+  display: inline-flex;
+  height: 15rem;
+  flex: 1;
+  flex-wrap: wrap;
+  background-color: #292929;
+}
+
+.third__section__music--banner {
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  width: 15rem;
+  background: #222222;
+  align-items: center;
+  justify-content: center;
+}
+
+.third__section__music--banner:hover {
+  background-color: rgb(48, 48, 48);
+}
+
+.third__section__music--banner img {
+  height: 10rem;
+  width: 9rem;
+}
+
+.third__section__music--banner img:hover {
+  transform: scale(1.1);
+}
+
+.third__section__vinyl--banner {
+  display: flex;
+  position: relative;
+  flex: 1;
+  height: 15rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #363636;
+  border-left: 2px #222222 solid;
+}
+
+.third__section__vinyl--banner:hover {
+  top: -2rem;
+  background-color: #dcdfe0;
+}
+
+.third__section__vinyl--banner img {
+  height: 10rem;
+}
+
+.third__section__cd--banner {
+  display: flex;
+  position: relative;
+  flex: 1;
+  height: 15rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #363636;
+  border-left: 2px #222222 solid;
+}
+
+.third__section__cd--banner:hover {
+  top: -2rem;
+  background-color: #e4c0e6;
+}
+
+.third__section__cd--banner img {
+  height: 10rem;
+}
+
+.third__section__cassette__tape--banner {
+  display: flex;
+  position: relative;
+  flex: 1;
+  height: 15rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #363636;
+  border-left: 2px #222222 solid;
+}
+
+.third__section__cassette__tape--banner:hover {
+  top: -2rem;
+  background-color: #5de4c2;
+}
+
+.third__section__cassette__tape--banner img {
+  height: 10rem;
+}
